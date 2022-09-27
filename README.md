@@ -28,6 +28,15 @@ SELECT * from Customers;
 ```
 {% endcode %}
 
+#### Join
+
+```sql
+SELECT Customers.customer_id, Customers.first_name, last_name, SUM(Orders.amount) as "Totale fatturato"
+FROM Customers
+JOIN Orders ON Orders.customer_id
+WHERE Orders.customer_id=1
+```
+
 #### Ma quanti ne esistono?
 
 {% embed url="https://towardsdatascience.com/the-many-flavours-of-sql-7b7da5d56c1e" %}
