@@ -40,7 +40,7 @@ _Caratteristiche:_ Utilizzano SQL, le colonne hanno dei [tipi](https://www.w3sch
 
 _Esempio Dati_
 
-<pre><code><strong>id, nome
+<pre class="language-csv"><code class="lang-csv"><strong>id, nome
 </strong>1, verdi
 2, bianchi
 3, rossi</code></pre>
@@ -63,7 +63,7 @@ _Caratteristiche_ Ogni record può presentare campi non in comune con gli altri
 
 _Esempio Dati_
 
-```
+```json
   /* doc1 */
   "Viada": {
     "v1": 3
